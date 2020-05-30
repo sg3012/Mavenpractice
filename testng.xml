@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RetryTest" verbose="1">
+
+	<listeners>
+		<listener class-name="retrylogic.Retrytransform"></listener>
+	</listeners>
+
+	<test name="MultipleRetryLogicTest">
+	
+		<classes>
+			<class name="testseleniumpromain.RetryLogictest"></class>
+		</classes>
+
+	</test>
+
+
+</suite>
